@@ -172,6 +172,10 @@ table {
 	ul.topnav li {
 		float: none;
 	}
+	
+	footer {
+		font-size: 14px;
+	}
 }
 
 @media only screen and (max-width: 300px){
