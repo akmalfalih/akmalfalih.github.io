@@ -159,6 +159,10 @@ table {
 	.none {
 		display: none;
 	}
+	
+	.justify-p{
+		text-align: justify;
+	}
 
 	body{
 		text-align: center;
