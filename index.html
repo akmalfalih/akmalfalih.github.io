@@ -9,19 +9,21 @@
 	<link rel="icon" href="Favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
-	<ul class="topnav">
+	<ul id="navbar" class="topnav">
 		<li><a href="index.html" class="active">Home</a></li>
 		<li><a href="contact.html">Contact</a></li>
 		<li><a href="My CV.pdf" target="_blank">My CV</a></li>
+		<li id="dark-mode"><a href="#" onclick="setDarkMode(true)" class="left-border" style="border-right-style: hidden;">dark mode</a></li>
+		<li id="light-mode"><a href="#" onclick="setDarkMode(false)" class="left-border" style="border-right-style: hidden;">light mode</a></li>
 	</ul>
 
-	<header>
+	<div id="header">
 		<img id="foto" src="Image/foto-profile.jpg" alt="Foto Profil">
 		<h1>Muhammad Akmal Falih Rizqullah</h1>
 		<p style="margin-top: -15px;">Electrical Engineering</p>
-	</header>
+	</div>
 
-	<section>
+	<section id="content">
 		<div id="about-me">
 			<h2 class="center-text">About Me</h2>
 			<p class="justify-p">
@@ -58,8 +60,10 @@
 
 	</section>
 
-	<footer class="center-text">
+	<div id="footer" class="center-text">
 		<p>Created by Muhammad Akmal Falih Rizqullah</p>
-	</footer>
+	</div>
+	
+	<script src="Javascript/home.js"></script>
 </body>
 </html>
